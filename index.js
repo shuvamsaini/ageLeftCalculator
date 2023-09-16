@@ -15,4 +15,5 @@ monthsLeft = maxMonths-(age*12);
 daysLeft = maxDays-(age*365);
 
 alert("Years Left = " + yearsLeft + "\nMonths Left = " + monthsLeft + "\nDays Left = " + daysLeft);
+alert("Thankyou 🙏 for using this app. This means a lot to me);
 };

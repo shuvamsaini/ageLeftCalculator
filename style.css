@@ -1,0 +1,29 @@
+body{
+    font-size: medium;
+    background-color: black;
+    color:white;
+    font-style: italic;
+    text-align: center;
+}
+
+h1{
+    display: inline-block;
+    background:red;
+    height:4rem;
+    line-height: 2;
+    border-radius: 6px;
+    margin-top: 50vh;
+}
+
+h1:hover{
+    cursor: pointer;
+    background: white;
+    color:black;
+
+}
+
+@media(max-width:600px){
+    h1{ height:auto;
+        font-size: 20px;
+    }
+}
